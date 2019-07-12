@@ -1,0 +1,26 @@
+{
+  "name": "byte-nohost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "npm i && lerna bootstrap",
+    "start": "./bootstrap.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hxfdarling/byte-nohost.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hxfdarling/byte-nohost/issues"
+  },
+  "homepage": "https://github.com/hxfdarling/byte-nohost#readme",
+  "dependencies": {
+    "whistle": "^1.15.8"
+  },
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  }
+}
